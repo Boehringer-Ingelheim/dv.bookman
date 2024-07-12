@@ -10,7 +10,7 @@ Description: Shiny server-side bookmark manager.
 License: Apache License (>= 2)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.0
 Depends: R (>= 4.1)
 Imports: shiny (>= 1.7.1), DT (>= 0.19), fontawesome
 Suggests: dv.manager (>= 1.0.9.129), testthat, knitr, devtools
