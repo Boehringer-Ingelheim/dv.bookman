@@ -6,5 +6,7 @@ The Bookmark Manager module provides a centralized view of server bookmarks of a
 
 # Installation
 
+``` r
 if (!require("remotes")) install.packages("remotes")
 remotes::install_github("Boehringer-Ingelheim/dv.bookman")
+```
