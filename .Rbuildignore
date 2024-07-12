@@ -6,13 +6,6 @@
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
-
-upload_doc.sh
-nexus.R
-build.R
-lintr.R
-test_covr.R
 .lintr
-
 _tests_
 ^.*\.Rproj$
