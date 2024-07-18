@@ -17,8 +17,8 @@ reference:
 - title: "Main module function"
 - contents:
   - mod_bookman
-- title: "Functions for use outside of DaVinci"
-- contents:
-  - bookman_server
-  - bookman_UI
+# - title: "Functions for use outside of DaVinci"
+# - contents:
+#   - bookman_server
+#   - bookman_UI
 
