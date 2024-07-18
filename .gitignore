@@ -6,7 +6,6 @@
 *.sh
 .vimlocal
 docs
-man
 shiny_bookmarks
 inst/validation/validation_report.html
 tests/test-out.xml
