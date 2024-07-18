@@ -19,10 +19,10 @@ repo:
 
 reference:
   - title: Main module function
-  - contents:
+    contents:
     - mod_bookman
   - title: Functions for use outside of DaVinci
-  - contents:
+    contents:
     - bookman_server
     - bookman_UI
 
