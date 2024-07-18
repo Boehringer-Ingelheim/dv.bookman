@@ -11,7 +11,7 @@ linters <- lintr::modify_defaults(
   , trailing_blank_lines_linter = NULL        # natural extension of trailing_whitespace_linter, present on the template
 )
 
-if(isTRUE(Sys.getenv('CI'))){
+if(identical(Sys.getenv('CI'), "true")){
   linters <- lintr::modify_defaults(
     linters
     , object_usage_linter = NULL              # R lacks var declarations; it's easy to assign to the wrong variable by mistake
