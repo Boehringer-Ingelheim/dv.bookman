@@ -37,15 +37,15 @@ interface.
 Adding the Bookmark Manager module to a DaVinci application usually requires appending a single extra line to the 
 `module_list` parameter of `dv.manager::run_app`:
 `r # nolint start`
-```{r, eval=FALSE}
+```{r, eval=FALSE, tidy=FALSE}
 "Bookmarks" = dv.bookman::mod_bookman()
 ```
 `r # nolint end`
 
 This is how it would look like in context:
 
-`r # nolint start # styler: off`
-```{r, eval=FALSE}
+`r # nolint start`
+```{r, eval=FALSE, tidy=FALSE}
 app <- function() {
   dataset <- ...
 
@@ -61,16 +61,17 @@ app <- function() {
   )
 }
 ```
-`r # nolint end # styler: on`
+`r # nolint end`
 
 Notice that the call to `mod_bookman` does not require a module ID. That is because it does not make sense to include 
 it more than once inside an application and a default ID is enough. The module signature still offers the possibility
 of changing that default ID:
-`r # nolint start # styler: off`
-```{r, eval=FALSE}
-mod_bookman <- function(module_id = "_bookman", bookmark_dir = NULL) { _omitted_}
+`r # nolint start`
+```{r, eval=FALSE, tidy=FALSE, echo=-2}
+mod_bookman <- function(module_id = "_bookman", bookmark_dir = NULL)
+  NULL
 ```
-`r # nolint end # styler: on`
+`r # nolint end`
 The second parameter to the module, `bookmark_dir`, overrides the auto-detection of the server bookmark folder.
 
 # Internals
