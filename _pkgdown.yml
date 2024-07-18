@@ -13,12 +13,12 @@ home:
   title: dv.bookman
   links:
 
-reference:
-  - title: Main module function
-    contents:
-    - mod_bookman
-  - title: Functions for use outside of DaVinci
-    contents:
-    - bookman_server
-    - bookman_UI
+# reference:
+#   - title: Main module function
+#     contents:
+#     - mod_bookman
+#   - title: Functions for use outside of DaVinci
+#     contents:
+#     - bookman_server
+#     - bookman_UI
 
