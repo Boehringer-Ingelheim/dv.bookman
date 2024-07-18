@@ -13,10 +13,6 @@ home:
   title: dv.bookman
   links:
 
-repo:
-  url:
-    home: https://github.com/Boehringer-Ingelheim/dv.bookman
-
 reference:
   - title: Main module function
     contents:
