@@ -44,13 +44,13 @@ Adding the Bookmark Manager module to a DaVinci application usually requires app
 
 This is how it would look like in context:
 
-`r # nolint start`
+`r # nolint start # styler: off`
 ```{r, eval=FALSE}
 app <- function() {
   dataset <- ...
 
   module_list <- list(
-    "Tab 1" = mod_1(module_id = "mod1"), ...
+    "Tab 1" = mod_1(module_id = "mod1"), ...,
     "Bookmarks" = dv.bookman::mod_bookman()
   )
 
@@ -61,7 +61,7 @@ app <- function() {
   )
 }
 ```
-`r # nolint end`
+`r # nolint end # styler: on`
 
 Notice that the call to `mod_bookman` does not require a module ID. That is because it does not make sense to include 
 it more than once inside an application and a default ID is enough. The module signature still offers the possibility
