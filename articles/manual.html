@@ -85,7 +85,7 @@
 </h2>
 <p>Adding the Bookmark Manager module to a DaVinci application usually requires appending a single extra line to the <code>module_list</code> parameter of <code><a href="https://rdrr.io/pkg/dv.manager/man/run_app.html" class="external-link">dv.manager::run_app</a></code>:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="st">"Bookmarks"</span> <span class="op">=</span> <span class="fu">dv.bookman</span><span class="fu">::</span><span class="fu">mod_bookman</span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="st">"Bookmarks"</span> <span class="op">=</span> <span class="fu">dv.bookman</span><span class="fu">::</span><span class="fu"><a href="../reference/mod_bookman.html">mod_bookman</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
 <p>This is how it would look like in context:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">app</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="op">)</span> <span class="op">{</span></span>
@@ -93,7 +93,7 @@
 <span></span>
 <span>  <span class="va">module_list</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span></span>
 <span>    <span class="st">"Tab 1"</span> <span class="op">=</span> <span class="fu">mod_1</span><span class="op">(</span>module_id <span class="op">=</span> <span class="st">"mod1"</span><span class="op">)</span>, <span class="va">...</span>,</span>
-<span>    <span class="st">"Bookmarks"</span> <span class="op">=</span> <span class="fu">dv.bookman</span><span class="fu">::</span><span class="fu">mod_bookman</span><span class="op">(</span><span class="op">)</span></span>
+<span>    <span class="st">"Bookmarks"</span> <span class="op">=</span> <span class="fu">dv.bookman</span><span class="fu">::</span><span class="fu"><a href="../reference/mod_bookman.html">mod_bookman</a></span><span class="op">(</span><span class="op">)</span></span>
 <span>  <span class="op">)</span></span>
 <span></span>
 <span>  <span class="fu">dv.manager</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/dv.manager/man/run_app.html" class="external-link">run_app</a></span><span class="op">(</span></span>

@@ -25,6 +25,15 @@
     <loc>/news/index.html</loc>
   </url>
   <url>
+    <loc>/reference/bookman_UI.html</loc>
+  </url>
+  <url>
+    <loc>/reference/bookman_server.html</loc>
+  </url>
+  <url>
     <loc>/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>/reference/mod_bookman.html</loc>
   </url>
 </urlset>
