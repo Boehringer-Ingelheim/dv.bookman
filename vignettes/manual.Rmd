@@ -66,9 +66,11 @@ app <- function() {
 Notice that the call to `mod_bookman` does not require a module ID. That is because it does not make sense to include 
 it more than once inside an application and a default ID is enough. The module signature still offers the possibility
 of changing that default ID:
+`r # nolint start # styler: off`
 ```{r, eval=FALSE}
-mod_bookman <- function(module_id = "_bookman", bookmark_dir = NULL)
+mod_bookman <- function(module_id = "_bookman", bookmark_dir = NULL) { _omitted_}
 ```
+`r # nolint end # styler: on`
 The second parameter to the module, `bookmark_dir`, overrides the auto-detection of the server bookmark folder.
 
 # Internals
