@@ -1,6 +1,6 @@
 Package: dv.bookman
 Title: Bookmark manager
-Version: 0.0.2
+Version: 0.0.2-9000
 Authors@R: 
     c(
       person("Boehringer-Ingelheim Pharma GmbH & Co.KG", role = c("cph", "fnd")),
