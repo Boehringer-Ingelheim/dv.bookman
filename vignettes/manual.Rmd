@@ -18,14 +18,14 @@ It can also be used by any shiny application configured with `shiny::enableBookm
 `shiny::shinyApp(..., enableBookmarking = 'server')` or equivalent mechanisms.
 
 The module offers two tabs ("List" and "Configure"). Most users are only expected to interact with the former:
-![](images/list.jpg) 
+![Detail of default listing tab](images/list.jpg) 
 This listing contains a curated subset of all bookmarks available for the application. It is functionally equivalent
 to users sharing bookmarks and storing them on their browsers but may be more convenient for close-knit groups of users
 that want a unified repository of bookmarks.
 
 The second tab allows to review all available bookmarks, describe them, sort them and decide which to make available
 on the 'List' tab of the module:
-![](images/configure.jpg) 
+![Detail of configuration tab](images/configure.jpg) 
 
 The "Hidden Bookmarks" table does not currently offer a sorting mechanism and instead sorts them from newest to oldest.
 The expected workflow is for users to create a bookmark, transition to the 'Configure' tab, find it on top of the Hidden
@@ -35,7 +35,7 @@ interface.
 
 # Usage
 Adding the Bookmark Manager module to a DaVinci application usually requires appending a single extra line to the 
-`module_list` parameter of `dv.manager::run_app`:
+`module_list` parameter of [`dv.manager::run_app`](https://boehringer-ingelheim.github.io/dv.manager/reference/run_app.html):
 `r # nolint start`
 ```{r, eval=FALSE, tidy=FALSE}
 "Bookmarks" = dv.bookman::mod_bookman()

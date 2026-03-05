@@ -16,3 +16,4 @@ Imports: shiny (>= 1.7.1), DT (>= 0.19), fontawesome
 Suggests: dv.manager (>= 1.0.9.129), testthat, knitr, devtools
 Remotes: boehringer-ingelheim/dv.manager
 VignetteBuilder: knitr
+URL: https://github.com/Boehringer-Ingelheim/dv.bookman, https://boehringer-ingelheim.github.io/dv.bookman

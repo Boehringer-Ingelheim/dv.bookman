@@ -13,6 +13,8 @@ home:
   title: dv.bookman
   links:
 
+url: https://boehringer-ingelheim.github.io/dv.bookman
+
 reference:
 - title: Main module function
 - contents:
