@@ -1,3 +1,7 @@
+# dv.bookman 0.0.3
+
+* Tweak Quality Control report
+
 # dv.bookman 0.0.2
 
 * Streamlined interface
