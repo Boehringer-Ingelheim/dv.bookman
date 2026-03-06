@@ -1,39 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>/404.html</loc>
-  </url>
-  <url>
-    <loc>/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>/articles/manual.html</loc>
-  </url>
-  <url>
-    <loc>/articles/qc.html</loc>
-  </url>
-  <url>
-    <loc>/authors.html</loc>
-  </url>
-  <url>
-    <loc>/index.html</loc>
-  </url>
-  <url>
-    <loc>/news/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/bookman_UI.html</loc>
-  </url>
-  <url>
-    <loc>/reference/bookman_server.html</loc>
-  </url>
-  <url>
-    <loc>/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/mod_bookman.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://boehringer-ingelheim.github.io/dv.bookman/404.html</loc></url>
+<url><loc>https://boehringer-ingelheim.github.io/dv.bookman/LICENSE-text.html</loc></url>
+<url><loc>https://boehringer-ingelheim.github.io/dv.bookman/PULL_REQUEST_TEMPLATE.html</loc></url>
+<url><loc>https://boehringer-ingelheim.github.io/dv.bookman/articles/index.html</loc></url>
+<url><loc>https://boehringer-ingelheim.github.io/dv.bookman/articles/manual.html</loc></url>
+<url><loc>https://boehringer-ingelheim.github.io/dv.bookman/articles/qc.html</loc></url>
+<url><loc>https://boehringer-ingelheim.github.io/dv.bookman/authors.html</loc></url>
+<url><loc>https://boehringer-ingelheim.github.io/dv.bookman/index.html</loc></url>
+<url><loc>https://boehringer-ingelheim.github.io/dv.bookman/news/index.html</loc></url>
+<url><loc>https://boehringer-ingelheim.github.io/dv.bookman/reference/bookman_UI.html</loc></url>
+<url><loc>https://boehringer-ingelheim.github.io/dv.bookman/reference/bookman_server.html</loc></url>
+<url><loc>https://boehringer-ingelheim.github.io/dv.bookman/reference/index.html</loc></url>
+<url><loc>https://boehringer-ingelheim.github.io/dv.bookman/reference/mod_bookman.html</loc></url>
 </urlset>
+

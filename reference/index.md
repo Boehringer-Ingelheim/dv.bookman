@@ -1,0 +1,13 @@
+# Package index
+
+## Main module function
+
+- [`mod_bookman()`](https://boehringer-ingelheim.github.io/dv.bookman/reference/mod_bookman.md)
+  : dv.bookman DaVinci module.
+
+## Functions for use outside of DaVinci
+
+- [`bookman_server()`](https://boehringer-ingelheim.github.io/dv.bookman/reference/bookman_server.md)
+  : dv.bookman module server.
+- [`bookman_UI()`](https://boehringer-ingelheim.github.io/dv.bookman/reference/bookman_UI.md)
+  : dv.bookman module UI.
