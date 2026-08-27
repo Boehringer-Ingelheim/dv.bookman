@@ -72,6 +72,6 @@ mock_app_mm <- function() {
   dv.manager::run_app(
     data = list("DS" = dataset),
     module_list = module_list,
-    filter_data = "adsl"
+    filter_dataset_name = "adsl"
   )
 }
